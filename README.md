@@ -8,7 +8,7 @@
 
 在 GitHub 页面选择 **Code → Download ZIP**，解压后将文件夹重命名为 `ibi-emoji`。包内含完整素材，无需 Git LFS。
 
-将整个文件夹放入 Codex 的技能目录 `~/.codex/skills/ibi-emoji`。如果设置了 `CODEX_HOME`，则使用该目录下的 `skills/ibi-emoji`。新开一个会话后调用 `$ibi-emoji`。
+按当前官方文档，将整个文件夹放入个人技能目录 `~/.agents/skills/ibi-emoji`，确保 `SKILL.md` 直接位于该文件夹内。Windows 对应用户目录下的 `.agents\skills\ibi-emoji`。在 WSL 中运行 Codex 时，使用 WSL 的用户目录。Codex 会自动发现技能，如果没有出现，重启后再调用 `$ibi-emoji`。安装位置说明见 [OpenAI 官方技能文档](https://developers.openai.com/codex/skills#where-to-save-skills)。
 
 也可以对安装了 skill-installer 的 Codex 说下面这句话。
 
@@ -17,6 +17,12 @@
 ```
 
 ## 同事如何创作
+
+首次使用时，可以把下面这段发给 Codex，让它检查运行环境并复现一个已有示例。
+
+```text
+使用 $ibi-emoji，按 README 检查 Python、Pillow、CairoSVG 和系统 Cairo，安装缺少的依赖。验证素材包，复现第 22 款表情并展示预览。检查当前会话是否提供图像生成或编辑工具，告诉我能否创作全新动作。
+```
 
 安装后上传动作参考图，或直接描述表情。
 
