@@ -1,0 +1,11 @@
+{
+  "foreground": "../foreground/09.png",
+  "rotation": -16,
+  "body_box_norm": [
+    0.16927083333333334,
+    0.1806640625,
+    0.60546875,
+    0.830078125
+  ],
+  "body_clip_y_norm": 0.908203125
+}

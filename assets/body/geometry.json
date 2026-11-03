@@ -1,0 +1,19 @@
+{
+  "source_pixel_size": [
+    1303,
+    1207
+  ],
+  "body_bbox": [
+    110,
+    17,
+    1207,
+    1194
+  ],
+  "seal_uv": [
+    0.72,
+    0.68
+  ],
+  "seal_diameter_over_body_width": 0.267,
+  "rule": "Every pose references FIXED_BODY_MASTER.svg as ONE transformed group. No pose-specific seal positions.",
+  "master_sha256": "9c06ef14e088ab8228decf02410de283fb337e0749d4d22c0b5dcfcbeb28093b"
+}

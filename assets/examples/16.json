@@ -1,0 +1,10 @@
+{
+  "foreground": "../foreground/16.png",
+  "body_box_norm": [
+    0.15,
+    0.04,
+    0.66,
+    0.72
+  ],
+  "rotation": 7
+}

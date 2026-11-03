@@ -1,0 +1,4 @@
+interface:
+  display_name: "脑智角色表情创作"
+  short_description: "用固定脑部、电路与校徽母版制作统一角色表情、透明贴纸与同事共用素材"
+  default_prompt: "使用 $ibi-emoji，根据我的文字或参考图创作一款保持角色一致的透明底表情。"
